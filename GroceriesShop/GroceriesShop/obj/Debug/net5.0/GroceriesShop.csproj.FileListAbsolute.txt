@@ -1,0 +1,32 @@
+C:\Users\test\Desktop\GroceriesShop\GroceriesShop\bin\Debug\net5.0\GroceriesShop.exe
+C:\Users\test\Desktop\GroceriesShop\GroceriesShop\bin\Debug\net5.0\GroceriesShop.deps.json
+C:\Users\test\Desktop\GroceriesShop\GroceriesShop\bin\Debug\net5.0\GroceriesShop.runtimeconfig.json
+C:\Users\test\Desktop\GroceriesShop\GroceriesShop\bin\Debug\net5.0\GroceriesShop.runtimeconfig.dev.json
+C:\Users\test\Desktop\GroceriesShop\GroceriesShop\bin\Debug\net5.0\GroceriesShop.dll
+C:\Users\test\Desktop\GroceriesShop\GroceriesShop\bin\Debug\net5.0\ref\GroceriesShop.dll
+C:\Users\test\Desktop\GroceriesShop\GroceriesShop\bin\Debug\net5.0\GroceriesShop.pdb
+C:\Users\test\Desktop\GroceriesShop\GroceriesShop\obj\Debug\net5.0\GroceriesShop.csproj.AssemblyReference.cache
+C:\Users\test\Desktop\GroceriesShop\GroceriesShop\obj\Debug\net5.0\GroceriesShop.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\test\Desktop\GroceriesShop\GroceriesShop\obj\Debug\net5.0\GroceriesShop.AssemblyInfoInputs.cache
+C:\Users\test\Desktop\GroceriesShop\GroceriesShop\obj\Debug\net5.0\GroceriesShop.AssemblyInfo.cs
+C:\Users\test\Desktop\GroceriesShop\GroceriesShop\obj\Debug\net5.0\GroceriesShop.csproj.CoreCompileInputs.cache
+C:\Users\test\Desktop\GroceriesShop\GroceriesShop\obj\Debug\net5.0\GroceriesShop.dll
+C:\Users\test\Desktop\GroceriesShop\GroceriesShop\obj\Debug\net5.0\ref\GroceriesShop.dll
+C:\Users\test\Desktop\GroceriesShop\GroceriesShop\obj\Debug\net5.0\GroceriesShop.pdb
+C:\Users\test\Desktop\GroceriesShop\GroceriesShop\obj\Debug\net5.0\GroceriesShop.genruntimeconfig.cache
+C:\Users\test\Desktop\New folder\developer-excercise\GroceriesShop\GroceriesShop\bin\Debug\net5.0\GroceriesShop.exe
+C:\Users\test\Desktop\New folder\developer-excercise\GroceriesShop\GroceriesShop\bin\Debug\net5.0\GroceriesShop.deps.json
+C:\Users\test\Desktop\New folder\developer-excercise\GroceriesShop\GroceriesShop\bin\Debug\net5.0\GroceriesShop.runtimeconfig.json
+C:\Users\test\Desktop\New folder\developer-excercise\GroceriesShop\GroceriesShop\bin\Debug\net5.0\GroceriesShop.runtimeconfig.dev.json
+C:\Users\test\Desktop\New folder\developer-excercise\GroceriesShop\GroceriesShop\bin\Debug\net5.0\GroceriesShop.dll
+C:\Users\test\Desktop\New folder\developer-excercise\GroceriesShop\GroceriesShop\bin\Debug\net5.0\ref\GroceriesShop.dll
+C:\Users\test\Desktop\New folder\developer-excercise\GroceriesShop\GroceriesShop\bin\Debug\net5.0\GroceriesShop.pdb
+C:\Users\test\Desktop\New folder\developer-excercise\GroceriesShop\GroceriesShop\obj\Debug\net5.0\GroceriesShop.csproj.AssemblyReference.cache
+C:\Users\test\Desktop\New folder\developer-excercise\GroceriesShop\GroceriesShop\obj\Debug\net5.0\GroceriesShop.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\test\Desktop\New folder\developer-excercise\GroceriesShop\GroceriesShop\obj\Debug\net5.0\GroceriesShop.AssemblyInfoInputs.cache
+C:\Users\test\Desktop\New folder\developer-excercise\GroceriesShop\GroceriesShop\obj\Debug\net5.0\GroceriesShop.AssemblyInfo.cs
+C:\Users\test\Desktop\New folder\developer-excercise\GroceriesShop\GroceriesShop\obj\Debug\net5.0\GroceriesShop.csproj.CoreCompileInputs.cache
+C:\Users\test\Desktop\New folder\developer-excercise\GroceriesShop\GroceriesShop\obj\Debug\net5.0\GroceriesShop.dll
+C:\Users\test\Desktop\New folder\developer-excercise\GroceriesShop\GroceriesShop\obj\Debug\net5.0\ref\GroceriesShop.dll
+C:\Users\test\Desktop\New folder\developer-excercise\GroceriesShop\GroceriesShop\obj\Debug\net5.0\GroceriesShop.pdb
+C:\Users\test\Desktop\New folder\developer-excercise\GroceriesShop\GroceriesShop\obj\Debug\net5.0\GroceriesShop.genruntimeconfig.cache
