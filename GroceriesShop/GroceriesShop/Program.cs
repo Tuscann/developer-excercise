@@ -8,6 +8,38 @@ namespace GroceriesShop
     {
         static void Main()
         {
+            List<Product> existingProductsInShop = new();
+
+            while (true)
+            {
+                Console.WriteLine("Write f finish products");
+
+                Console.WriteLine("Write new product name : ");
+                string name = Console.ReadLine();
+
+                if (name == "f")
+                {
+                    break;
+                }
+
+                Console.WriteLine("Write product price : ");
+
+                string value = Console.ReadLine();
+                if (value == "f")
+                {
+                    break;
+                }
+
+                double price;
+
+                bool result = double.TryParse(value, out price);
+
+                if (result == true)
+                {
+                    existingProductsInShop.Add(new Product() { Name = name, Price = price });
+                }
+            }
+
             Console.WriteLine("Write list of products you want to buy:");
             List<string> input = Console.ReadLine().Split(", ").ToList();
 
@@ -19,7 +51,7 @@ namespace GroceriesShop
             }
             else
             {
-                List<Product> products = FillProducts(input, ref currentproduct);
+                List<Product> products = FillProducts(input, existingProductsInShop);
 
                 double totalPrice = 0;
 
@@ -27,8 +59,15 @@ namespace GroceriesShop
 
                 bool isFoundHalfPrice = DealHalfPrice(products, ref totalPrice, isFound2from3);
 
-                Console.WriteLine("DEAL Take 2 for 3 : " + isFound2from3);
-                Console.WriteLine("DEAL Buy 1 get 1 half price : " + isFoundHalfPrice);
+                if (isFound2from3 == true)
+                {
+                    Console.WriteLine("DEAL Take 2 for 3 : " + isFound2from3);
+                }
+
+                if (isFoundHalfPrice == true)
+                {
+                    Console.WriteLine("DEAL Buy 1 get 1 half price : " + isFoundHalfPrice);
+                }              
 
                 if (totalPrice > 99)
                 {
@@ -135,33 +174,25 @@ namespace GroceriesShop
             return isFound2from3;
         }
 
-        private static List<Product> FillProducts(List<string> input, ref string currentproduct)
+        private static List<Product> FillProducts(List<string> input, List<Product> existingProducts)
         {
             List<Product> products = new();
 
             for (int i = 0; i < input.Count; i++)
             {
-                currentproduct = input[i].TrimStart('"').TrimEnd('"');
+                string currentProduct = input[i].TrimStart('"').TrimEnd('"');
 
-                if (currentproduct == "apple")
+                bool containsItem = existingProducts.Any(item => item.Name == currentProduct);
+
+                if (containsItem == true)
                 {
-                    products.Add(new Product() { Name = "Apple", Price = 50 });
-                }
-                else if (currentproduct == "banana")
-                {
-                    products.Add(new Product() { Name = "Banana", Price = 40 });
-                }
-                else if (currentproduct == "tomato")
-                {
-                    products.Add(new Product() { Name = "Tomato", Price = 30 });
-                }
-                else if (currentproduct == "potato")
-                {
-                    products.Add(new Product() { Name = "potato", Price = 26 });
+                    int index = existingProducts.FindIndex(a => a.Name == currentProduct);
+
+                    products.Add(new Product() { Name = currentProduct, Price = existingProducts[index].Price });
                 }
                 else
                 {
-                    Console.WriteLine($"We do not sell product: {currentproduct}");
+                    Console.WriteLine($"We do not sell product: {currentProduct}");
                 }
             }
 
